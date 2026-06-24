@@ -1,0 +1,52 @@
+{
+  "voxel_pca_crispness": {
+    "sensitivity": 0.7697574870068901,
+    "oracle_agreement": 0.540952380952381,
+    "separability": 0.8134259259259259,
+    "noise_robustness": 0.9758070351633726,
+    "scene_independence": 0.9923943665151952,
+    "compute_ms": 213.9462920000028,
+    "exponent": 1.0702886903064925,
+    "compute_score": 0.0005662847330763285
+  },
+  "mme_grid": {
+    "sensitivity": 0.7977638685596795,
+    "oracle_agreement": 0.6109523809523808,
+    "separability": 0.7704218106995885,
+    "noise_robustness": 0.8620353897808726,
+    "scene_independence": 0.901123927117772,
+    "compute_ms": 216.42850000000635,
+    "exponent": 1.0645155402785325,
+    "compute_score": 0.0
+  },
+  "mom_planarity": {
+    "sensitivity": 0.6729901920088346,
+    "oracle_agreement": 0.5710553799459598,
+    "separability": 0.8494470164609055,
+    "noise_robustness": 1.0,
+    "scene_independence": 0.9506834399502158,
+    "compute_ms": 213.78554200001076,
+    "exponent": 1.0662174307264591,
+    "compute_score": 0.0006034091028326457
+  },
+  "bev_edge_density": {
+    "sensitivity": 0.19207361676875695,
+    "oracle_agreement": 0.22738095238095235,
+    "separability": 0.4896347736625515,
+    "noise_robustness": 1.0,
+    "scene_independence": 0.5485479759722072,
+    "compute_ms": 9.163708000016868,
+    "exponent": 0.8849987112622362,
+    "compute_score": 0.9999999893378912
+  },
+  "knn_entropy_mme": {
+    "sensitivity": 0.9745802774675887,
+    "oracle_agreement": 0.9216666666666665,
+    "separability": 0.8915380658436214,
+    "noise_robustness": 0.8963746636203322,
+    "scene_independence": 0.9500704234581872,
+    "compute_ms": 80.07100000000378,
+    "exponent": 0.5525224590823603,
+    "compute_score": 0.08247838340300472
+  }
+}

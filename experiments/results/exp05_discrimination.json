@@ -1,0 +1,9 @@
+{
+  "discrimination": {
+    "voxel_pca_crispness": 0.024895116499156225,
+    "mme_grid": 0.18837341488006107,
+    "mom_planarity": 0.02847151226517593,
+    "bev_edge_density": 0.1395698178067845,
+    "knn_entropy_mme": 0.08834709747746297
+  }
+}

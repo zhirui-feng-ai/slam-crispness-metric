@@ -1,0 +1,7 @@
+node_modules/
+dist/
+# generated copies — recreated by `npm run sync` (runs on dev/build)
+public/data/
+public/figures/
+public/reports/
+clouds/

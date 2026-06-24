@@ -1,0 +1,72 @@
+{
+  "score_by_grade": {
+    "voxel_pca_crispness": {
+      "consumer": 0.9919605858059698,
+      "industrial": 0.9883218631401784,
+      "tactical": 0.9733666357122411,
+      "navigation": 0.9982173735429702
+    },
+    "mme_grid": {
+      "consumer": 0.9159538190575396,
+      "industrial": 0.8965442727827702,
+      "tactical": 0.798742402789009,
+      "navigation": 0.9841254803886783
+    },
+    "mom_planarity": {
+      "consumer": 0.8365939755209603,
+      "industrial": 0.8514620207518778,
+      "tactical": 0.851598747659842,
+      "navigation": 0.861111111111111
+    },
+    "bev_edge_density": {
+      "consumer": 0.33631454226117447,
+      "industrial": 0.3357696239751304,
+      "tactical": 0.2963591159978418,
+      "navigation": 0.2893751827324404
+    },
+    "knn_entropy_mme": {
+      "consumer": 16.257149016200117,
+      "industrial": 17.275978454809152,
+      "tactical": 17.658506779064265,
+      "navigation": 17.832608190359565
+    },
+    "chamfer_oracle": {
+      "consumer": 2.938152682603595,
+      "industrial": 0.3700331043178853,
+      "tactical": 0.31606178178941063,
+      "navigation": 0.30130792564606584
+    }
+  },
+  "drift_intensity_by_grade": {
+    "consumer": 19.016796513292075,
+    "industrial": 1.9016796513292074,
+    "tactical": 0.23770995641615092,
+    "navigation": 0.023770995641615094
+  },
+  "grade_specs": {
+    "consumer": {
+      "name": "consumer",
+      "gyro_bias_dph": 100.0,
+      "accel_bias_mg": 3.0,
+      "pos_err_60s": 400.0
+    },
+    "industrial": {
+      "name": "industrial",
+      "gyro_bias_dph": 8.0,
+      "accel_bias_mg": 0.5,
+      "pos_err_60s": 40.0
+    },
+    "tactical": {
+      "name": "tactical",
+      "gyro_bias_dph": 0.5,
+      "accel_bias_mg": 0.05,
+      "pos_err_60s": 5.0
+    },
+    "navigation": {
+      "name": "navigation",
+      "gyro_bias_dph": 0.02,
+      "accel_bias_mg": 0.005,
+      "pos_err_60s": 0.5
+    }
+  }
+}

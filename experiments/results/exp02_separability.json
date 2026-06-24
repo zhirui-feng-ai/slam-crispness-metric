@@ -1,0 +1,36 @@
+{
+  "auc": {
+    "voxel_pca_crispness": {
+      "bias": 0.9328703703703703,
+      "catastrophic": 0.6469135802469136,
+      "phenomenological": 0.8604938271604938
+    },
+    "mme_grid": {
+      "bias": 0.8512345679012345,
+      "catastrophic": 0.6362654320987654,
+      "phenomenological": 0.8237654320987654
+    },
+    "mom_planarity": {
+      "bias": 0.9212962962962963,
+      "catastrophic": 0.7020447530864198,
+      "phenomenological": 0.925
+    },
+    "bev_edge_density": {
+      "bias": 0.48256172839506173,
+      "catastrophic": 0.6196759259259259,
+      "phenomenological": 0.36666666666666664
+    },
+    "knn_entropy_mme": {
+      "bias": 0.9016975308641976,
+      "catastrophic": 0.7729166666666667,
+      "phenomenological": 1.0
+    }
+  },
+  "noise_robustness": {
+    "voxel_pca_crispness": 0.9758070351633726,
+    "mme_grid": 0.8620353897808726,
+    "mom_planarity": 1.0,
+    "bev_edge_density": 1.0,
+    "knn_entropy_mme": 0.8963746636203322
+  }
+}
